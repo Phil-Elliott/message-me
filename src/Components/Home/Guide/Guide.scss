@@ -1,0 +1,53 @@
+@import "./../../../shared.scss";
+
+.guide {
+  background-color: $color4;
+  padding: 3rem 0;
+
+  .inner-guide {
+    margin: 0 auto;
+    width: 80%;
+
+    h1 {
+      color: $color1;
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 0 auto;
+      width: 50%;
+    }
+    h6 {
+      color: $color2;
+      font-size: 1.25rem;
+      line-height: 2rem;
+      padding-top: 1rem;
+      text-align: center;
+      margin: 0 auto;
+      width: 40%;
+    }
+    .guide-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5rem;
+      margin: 0 auto;
+      padding-top: 5rem;
+      width: 80%;
+
+      .part-header {
+        display: flex;
+        padding-bottom: 0.5rem;
+
+        h2 {
+          color: $color3;
+          padding-right: 1rem;
+        }
+        h3 {
+          color: $color1;
+        }
+      }
+      p {
+        color: $color2;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
