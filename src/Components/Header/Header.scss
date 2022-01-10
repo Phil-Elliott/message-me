@@ -1,0 +1,78 @@
+$color1: #0f4189;
+$color2: #666a7b;
+$color3: #ff793f;
+$color4: #f2f8ff;
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-name {
+    color: $color1;
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      margin-left: 0.25rem;
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+
+    li {
+      font-size: 1.1rem;
+      list-style: none;
+      padding: 0 2.25rem;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+  .buttons {
+    h4 {
+      background-color: white;
+      border-radius: 5px;
+      padding: 0.5rem 1.5rem;
+    }
+    .signIn-btn {
+      border: 2px solid $color1;
+      color: $color1;
+      margin-right: 1.5rem;
+      transition-duration: 1s;
+
+      &:hover {
+        background-color: $color1;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    .register-btn {
+      border: 2px solid $color1;
+      color: white;
+      background-color: $color1;
+      transition-duration: 1s;
+
+      &:hover {
+        background-color: white;
+        cursor: pointer;
+        color: $color1;
+      }
+    }
+  }
+}
