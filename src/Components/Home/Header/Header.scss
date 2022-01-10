@@ -1,14 +1,15 @@
-$color1: #0f4189;
-$color2: #666a7b;
-$color3: #ff793f;
-$color4: #f2f8ff;
+@import "./../../../shared.scss";
 
 .header {
+  background-color: white;
   display: flex;
   justify-content: center;
-  height: 10vh;
-  width: 80%;
+  height: 5vh;
+  left: 0;
+  right: 0;
+  width: 75%;
   margin: 0 auto;
+  position: fixed;
 
   div {
     display: flex;
@@ -36,10 +37,11 @@ $color4: #f2f8ff;
     li {
       font-size: 1.1rem;
       list-style: none;
-      padding: 0 2.25rem;
+      padding: 0 2.3rem;
 
       a {
-        color: black;
+        color: $color1;
+        font-weight: 600;
         text-decoration: none;
       }
     }

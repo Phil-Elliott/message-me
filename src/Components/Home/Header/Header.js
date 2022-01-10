@@ -11,10 +11,10 @@ const Header = () => {
       </div>
       <ul>
         <li>
-          <a href="">About Us</a>
+          <a href="#about">About Us</a>
         </li>
         <li>
-          <a href="">Services</a>
+          <a href="">Guide</a>
         </li>
         <li>
           <a href="">Feedback</a>

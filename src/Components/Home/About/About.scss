@@ -1,0 +1,53 @@
+@import "./../../../shared.scss";
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  height: 100vh;
+  width: 75%;
+  margin: 2rem auto;
+
+  .left {
+    margin: auto 0;
+
+    h1 {
+      color: $color1;
+      font-size: 2.5rem;
+    }
+
+    p {
+      color: $color2;
+      font-size: 1.25rem;
+      line-height: 2.1rem;
+      margin: 2rem 0;
+    }
+    .button {
+      background-color: $color3;
+      border: 2px solid $color3;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      padding: 0.25rem 1.5rem;
+      width: 27%;
+      transition-duration: 1s;
+
+      &:hover {
+        background-color: white;
+        color: $color1;
+        cursor: pointer;
+      }
+    }
+  }
+  .right {
+    margin: auto 0;
+    img {
+      border-radius: 50px;
+      display: block;
+      height: 60vh;
+      object-fit: cover;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+}
