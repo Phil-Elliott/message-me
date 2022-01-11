@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import Content from "./Purpose.content"
 import image1 from "./../../../Images/icons8-lock-200.svg"
-import image2 from "./../../../Images/icons8-lock-200.svg"
-import image3 from "./../../../Images/icons8-lock-200.svg"
-import image4 from "./../../../Images/icons8-lock-200.svg"
+import image2 from "./../../../Images/waldemar-brandt-kYbYIWdJRh0-unsplash.jpg"
+import image3 from "./../../../Images/john-mcarthur-X_MOr6oa4-k-unsplash.jpg"
+import image4 from "./../../../Images/duy-pham-Cecb0_8Hx-o-unsplash.jpg"
 
 import "./Purpose.scss"
 
@@ -54,7 +54,7 @@ const Purpose = () => {
   ]
 
   return (
-    <div className="purpose">
+    <div className="purpose" id="purpose">
       <Content
         tittle={contentArr[dataNum].tittle}
         par={contentArr[dataNum].par}

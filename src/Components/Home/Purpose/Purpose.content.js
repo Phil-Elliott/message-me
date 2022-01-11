@@ -30,8 +30,7 @@ const Content = ({ tittle, par, active, pic, changeData }) => {
             />
           </div>
           <img
-            className="image"
-            style={{ color: "orange" }}
+            className={active === "0" ? "image" : "image-2"}
             src={pic}
             alt="lock"
           />

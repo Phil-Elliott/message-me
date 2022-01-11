@@ -18,10 +18,10 @@ const Header = () => {
             <a href="#guide">Guide</a>
           </li>
           <li>
-            <a href="">Purpose</a>
+            <a href="#purpose">Purpose</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#plans">Plans</a>
           </li>
         </ul>
         <div className="buttons">
