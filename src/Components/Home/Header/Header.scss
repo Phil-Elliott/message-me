@@ -1,15 +1,19 @@
 @import "./../../../shared.scss";
 
 .header {
-  background-color: white;
   display: flex;
   justify-content: center;
   height: 10vh;
   left: 0;
   right: 0;
-  width: 75%;
   margin: -2rem auto;
   position: fixed;
+  background-color: white;
+  width: 100%;
+
+  .header-container {
+    width: 75%;
+  }
 
   div {
     display: flex;

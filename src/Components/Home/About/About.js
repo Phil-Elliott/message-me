@@ -22,13 +22,3 @@ const About = () => {
 }
 
 export default About
-
-/*
-  Header (h1)
-  two sentences
-  2 buttons 
-    Start Now (same as register)
-    Try it out 
-
-  picture on right
-*/

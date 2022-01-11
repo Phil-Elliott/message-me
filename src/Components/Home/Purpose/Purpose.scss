@@ -1,0 +1,86 @@
+@import "./../../../shared.scss";
+
+.purpose {
+  background-color: $color1;
+  color: white;
+  padding: 2rem 0;
+
+  .purpose-inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    margin: 0rem auto;
+    width: 75%;
+
+    .purpose-left {
+      h1 {
+        color: $color3;
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+      }
+      h3 {
+        font-size: 2rem;
+        padding: 2rem 0;
+      }
+      p {
+        color: $color4;
+        font-size: 1.15rem;
+        line-height: 2rem;
+        padding-bottom: 3rem;
+      }
+      .bubble-left {
+        margin: 0 0.5rem 0 0;
+        opacity: 0.3;
+      }
+      .active-left {
+        margin: 0 0.5rem 0 0;
+      }
+      .bubble {
+        margin: 0 0.5rem;
+        opacity: 0.3;
+      }
+      .active {
+        margin: 0 0.5rem;
+      }
+    }
+    .purpose-right {
+      .arrows {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 0;
+        .arrow-left {
+          font-size: 2.25rem;
+          margin-right: 5rem;
+          opacity: 0.5;
+          margin-top: 0.6rem;
+
+          &:hover {
+            color: $color3;
+            cursor: pointer;
+            opacity: 1;
+          }
+        }
+        .arrow-right {
+          background-color: $color4;
+          border-radius: 50px;
+          color: $color1;
+          font-size: 3.25rem;
+          padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+          transition-duration: 1s;
+
+          &:hover {
+            background-color: $color1;
+            color: $color3;
+            cursor: pointer;
+          }
+        }
+      }
+      .image {
+        height: 50vh;
+        margin: 0rem 6.5rem;
+        position: absolute;
+      }
+    }
+  }
+}
