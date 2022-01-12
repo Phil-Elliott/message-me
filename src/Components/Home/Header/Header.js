@@ -10,7 +10,7 @@ const Header = () => {
           <h1>MessageMe</h1>
           <FaComments className="icon" />
         </div>
-        <ul>
+        <ul className="hide-nav">
           <li>
             <a href="#about">About Us</a>
           </li>

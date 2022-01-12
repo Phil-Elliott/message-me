@@ -1,0 +1,54 @@
+@import "./../../../shared.scss";
+
+.footer-container {
+  background-color: $color1;
+  color: $color4;
+  padding: 1rem 0;
+
+  .footer {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    h5 {
+      color: $color3;
+      font-size: 1.25rem;
+      padding-bottom: 0.5rem;
+    }
+    .socials {
+      display: flex;
+      font-size: 1.75rem;
+      align-items: center;
+
+      .social {
+        color: $color3;
+        margin: 0 0.5rem;
+        text-decoration: none;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    width: 85% !important;
+    margin: 0 auto;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+
+    p {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}

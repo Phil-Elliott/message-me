@@ -84,3 +84,29 @@
     }
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .plans {
+    margin: 0 auto;
+    width: 90% !important;
+
+    h1 {
+      width: 80% !important;
+    }
+    h6 {
+      width: 70% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .plan {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .price-container {
+    padding: 1rem !important;
+  }
+}

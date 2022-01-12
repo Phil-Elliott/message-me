@@ -50,15 +50,18 @@
         justify-content: center;
         margin: 0;
         .arrow-left {
-          font-size: 2.25rem;
+          background-color: $color4;
+          border-radius: 50px;
+          color: $color1;
+          font-size: 3.25rem;
+          padding: 0.5rem 0.5rem 0.5rem 0.25rem;
+          transition-duration: 1s;
           margin-right: 5rem;
-          opacity: 0.5;
-          margin-top: 0.6rem;
 
           &:hover {
+            background-color: $color1;
             color: $color3;
             cursor: pointer;
-            opacity: 1;
           }
         }
         .arrow-right {
@@ -89,5 +92,35 @@
         position: absolute;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .image {
+    margin: 4rem 3rem !important;
+  }
+  .image-2 {
+    margin: 6rem 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .image {
+    margin: 4rem 0rem !important;
+  }
+  .image-2 {
+    margin: 6rem 0rem !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .image {
+    display: none;
+  }
+  .image-2 {
+    display: none;
+  }
+  .purpose-inside {
+    grid-template-columns: 1fr !important;
   }
 }
