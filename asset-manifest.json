@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/message-me/static/css/main.ea192444.css",
+    "main.js": "/message-me/static/js/main.0afd652c.js",
+    "static/media/duy-pham-Cecb0_8Hx-o-unsplash.jpg": "/message-me/static/media/duy-pham-Cecb0_8Hx-o-unsplash.3ad57c415dc37c9e9751.jpg",
+    "static/media/waldemar-brandt-kYbYIWdJRh0-unsplash.jpg": "/message-me/static/media/waldemar-brandt-kYbYIWdJRh0-unsplash.c097b913fa17ebceb51d.jpg",
+    "static/media/john-mcarthur-X_MOr6oa4-k-unsplash.jpg": "/message-me/static/media/john-mcarthur-X_MOr6oa4-k-unsplash.ae9753f6062965342e79.jpg",
+    "static/media/icons8-lock-200.svg": "/message-me/static/media/icons8-lock-200.93bf323c2bc18ca5de37138d21978f35.svg",
+    "static/media/icons8-speech-bubble-150.svg": "/message-me/static/media/icons8-speech-bubble-150.321de29942dba5809c9083ecced16787.svg",
+    "index.html": "/message-me/index.html",
+    "main.ea192444.css.map": "/message-me/static/css/main.ea192444.css.map",
+    "main.0afd652c.js.map": "/message-me/static/js/main.0afd652c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea192444.css",
+    "static/js/main.0afd652c.js"
+  ]
+}
